@@ -1,14 +1,84 @@
 <!DOCTYPE html>
-<html>
-    <head>
-            <title>Recept</title>
-            <link rel="stylesheet" href="style.css">
+<head> 
+    <title>Enkelt recept på pannkakor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-    </head>
-    <body>
-        <div class ="header-image">
-            <img src="download.jfif" alt="pannkaka">
+    <!-- Main content card -->
+    <main class="content-card">
+        
+        <!--Image -->
+        <div>
+            <img 
+                src="image.jpg" 
+                alt="Pannkakor serverade med grädde och bär" 
+                class="top-image"
+            >
         </div>
 
-    </body>
+        <!-- Padded content area -->
+        <div class="content-padding">
+
+            <!-- Header -->
+            <h1>Enkelt recept på pannkakor</h1>
+
+            <!-- Sub-description box -->
+            <div class="description-box">
+                <p>
+                    Gör traditionella tunna pannkakor med detta enkla och goda pannkaksrecept.
+                </p>
+            </div>
+
+            <!-- Ingredients -->
+            <section class="recipe-section">
+                <h2>Ingredienser</h2>
+                <p class="servings">för 4 portioner</p>
+                <ul class="ingredient-list">
+                    <li>2 1/2 dl vetemjöl</li>
+                    <li>1/2 tsk salt</li>
+                    <li>6 dl mjölk</li>
+                    <li>3 ägg</li>
+                    <li>smör (till stekning)</li>
+                    <li>sylt, bär eller frukt (till servering)</li>
+                </ul>
+            </section>
+
+            <!-- Instructions -->
+            <section class="recipe-section">
+                <h2>Så här gör du</h2>
+                <ol class="instructions-list">
+                    <li>Blanda mjöl och salt i en bunke.</li>
+                    <li>Vispa i hälften av mjölken och vispa till en slät smet.</li>
+                    <li>Vispa i resten av mjölken och äggen.</li>
+                    <li>Låt smeten stå och svälla i 10 minuter.</li>
+                    <li>Smält lite smör, för varje pannkaka, i en stek- eller pannkakspanna.</li>
+                    <li>Servera med sylt, bär eller frukt.</li>
+                </ol>
+            </section>
+
+            <!-- Serving Suggestions -->
+            <section>
+                <h2>Serveringsförslag</h2>
+                <!-- Image Grid -->
+                <div class="image-grid">
+                    <img 
+                        src="pannkaka.jfif" 
+                        alt="Serveringsförslag 1" 
+                        class="grid-image"
+                        
+                    >
+                    <img 
+                        src="download.jfif" 
+                        alt="Serveringsförslag 2" 
+                        class="grid-image"
+                        
+                    >
+                </div>
+            </section>
+
+        </div>
+    </main>
+
+</body>
 </html>
